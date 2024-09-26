@@ -82,11 +82,4 @@ for i in range(len(total)):
     sum += total[i][0]
 
 print(sum)
-'''
-for j in range(len(arr)):
-    numbers.append(int(arr[j][0]))
-    for i in range(len(arr[j])):
-        numbers.append((int(arr[j][i]) + int(arr[j][i - 1])))
-'''
-#print(numbers)
 
