@@ -17,13 +17,22 @@ def ispalindrome(num):
             return False
             
     return True
-for i in range(999):
-    if isprime(i):
-        if ispalindrome(i):
-            arr.append(i)
 
-print(arr)
-    
+#for i in range(999):
+#    if isprime(i):
+#        if ispalindrome(i):
+#            arr.append(i)
+
+def reverseprime():
+    for i in range(100):
+        if isprime(i):
+            arr.append(str(i)[::-1])
+
+reverseprime()
+array = ['11', '31', '71', '91', '32', '92', '13', '73', '14', '34', '74', '35', '95', '16', '76', '17', '37', '97', '38', '98', '79']
+
+print(sorted(array))
+
 
 
         

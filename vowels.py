@@ -12,3 +12,4 @@ while len(str(i**3)) < 3:
     array.append(i**3)
     i +=1
 print(array)
+
